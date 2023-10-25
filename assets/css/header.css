@@ -3,6 +3,10 @@
     width: 100%;
     height: 10rem;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    opacity: 0.9;
 }
 .header__wrap {
     height: 100%;
@@ -71,7 +75,7 @@
 /* block log in */
 .block__login, .block__signUp {
     border: 0.3rem solid #000;
-    margin-top: 1rem;
+    top: 20%;
     width: 30rem;
     height: 40rem;
     background: #fbf9f9;
@@ -162,18 +166,4 @@
 }
 .btn__cancle:hover {
     background-color: #ccc;
-}
-
-
-.product {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 200px;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
 }

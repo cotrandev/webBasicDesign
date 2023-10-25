@@ -38,9 +38,6 @@ main.addEventListener("click", (e) => {
   if (e.target !== blockLogIn && e.target !== logIn) {
     blockLogIn.classList.add("unactive");
     blockLogIn.classList.remove("active");
-
-    header.classList.remove("blur");
-    main.classList.remove("blur");
   }
 });
 
@@ -49,9 +46,6 @@ header.addEventListener("click", (e) => {
   if (e.target !== blogSignUp && e.target !== signUp) {
     blogSignUp.classList.add("unactive");
     blogSignUp.classList.remove("active");
-
-    header.classList.remove("blur");
-    main.classList.remove("blur");
   }
 });
 
@@ -59,9 +53,6 @@ main.addEventListener("click", (e) => {
   if (e.target !== blogSignUp && e.target !== signUp) {
     blogSignUp.classList.add("unactive");
     blogSignUp.classList.remove("active");
-
-    header.classList.remove("blur");
-    main.classList.remove("blur");
   }
 });
 //logic sign up
@@ -207,7 +198,7 @@ linkAdmin.addEventListener("click", function (event) {
   const isAdmin = JSON.parse(localStorage.getItem("admin"));
   if (!isAdmin) {
     event.preventDefault();
-    alert("Bạn không được phép truy cập liên kết này.");
+    alert("Bạn không được vào trang nay.");
   }
 });
 // Log Out
