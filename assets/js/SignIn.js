@@ -198,7 +198,7 @@ linkAdmin.addEventListener("click", function (event) {
   const isAdmin = JSON.parse(localStorage.getItem("admin"));
   if (!isAdmin) {
     event.preventDefault();
-    alert("Bạn không được vào trang nay.");
+    alert("Bạn không được vào trang này.");
   }
 });
 // Log Out
