@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- resset css -->
+    <link rel="stylesheet" href="../assets/css/resset.css">
+    <!-- common -->
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <!-- font text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- header -->
+    <link rel="stylesheet" href="../assets/css/header.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrap content row">
+            <div class="logo">
+                <img src="../assets/img/logo.svg" alt="" class="logo_main">
+            </div>
+            <div class="nav">
+                <ul class="nav__container row">
+                    <li class="nav__item">
+                        <a href="../home/index.html" class="nav__item__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../Contact/index.html" class="nav__item__link">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#!" class="nav__item__link nav__item__link--active" id="admin">Management</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- sign in -->
+            <div class="signIn">
+                <div class="signIn__wrap">
+                    <div class="logIn">Log In</div>
+                <div class="signUp">
+                    <button class="signUp__btn btn">
+                        Sign Up
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div class="user">
+                <div class="user__wrap row">
+                    <span class="user__name"></span>
+                    <img src="../assets/img/user-Img.png" alt="" class="user__img">
+                    <img src="../assets/img/signOut-icon.png" alt="" class="sign__out">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- block log in -->
+    <div class="block__login unactive">
+        <div class="block__login__wrap">
+            <h1 class="title__logIn">Log In</h1>
+            <form action="" class="form__login content">
+                <div class="form__group column">
+                    <label for="name" class="name">User name</label>
+                    <input type="text" id="name__login" class="form__control" name="name" placeholder="User name">
+                </div>
+                <div class="form__group column">
+                    <label for="phone" class="phone">Phone number</label>
+                    <input type="text" id="phone__login" class="form__control" name="phone" placeholder="84+">
+                </div>
+                <div class="form__group column">
+                    <label for="password" class="password">Password</label>
+                    <input type="password" id="password__login" class="form__control" name="password"
+                        placeholder="Password">
+                </div>
+                <button class="form__btn btn" type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+    <!-- block sign up -->
+    <div class="block__signUp unactive">
+        <div class="block__signUp__wrap">
+            <h1 class="title__signUp">Sign Up</h1>
+            <form action="" class="form__signUp content">
+                <div class="form__group column">
+                    <label for="name" class="name">User name</label>
+                    <input type="text" id="name__signup" class="form__control" name="name" placeholder="User name">
+                </div>
+                <div class="form__group column">
+                    <label for="phone" class="phone">Phone number</label>
+                    <input type="text" id="phone__signup" class="form__control" name="phone" placeholder="84+">
+                </div>
+                <div class="form__group column">
+                    <label for="password" class="password">Password</label>
+                    <input type="password" id="password__signup" class="form__control" name="password"
+                        placeholder="Password">
+                </div>
+                <div class="form__group column">
+                    <label for="password_comfirm" class="password_comfirm">Password comfirm</label>
+                    <input type="password" id="password__confirm" class="form__control" name="password__confirm"
+                        placeholder="Password">
+                </div>
+                <button class="form__btn btn btn__signUp" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+     <!-- block out -->
+     <div class="block__logOut unactive">
+        <div class="block__logOut__wrap">
+            <h1 class="block__logOut__title">
+                Do you want to sign out of your account?
+            </h1>
+            <div class="btn__block__logOut row content">
+                <button class="btn__cancle">Cancel</button>
+                <button class="btn__logout">Log out</button>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+
+    </main>
+
+    <script src="../assets/js/SignIn.js"></script>
+</body>
+
+</html>
