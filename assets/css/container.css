@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    height: 206.0rem;
+    /* border: solid 2px blue; */
+    position: relative;
+}
+
+/* menu */
+.container__menuright {
+    border: solid 2px grey;
+    width: 30rem;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.container__menuright h2 {
+    background-color:darkgray;
+    font-weight: 600;
+    border-radius: 9px 9px 5px 5px;
+    padding-left: 10px;
+}
+.container__menuright-menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+.container__menuright-menu ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* image */
+.container__content {
+    position: absolute;
+    width: 100rem;
+    height: 200rem;
+    /* border: 2px solid red; */
+    left: 400px;
+    top: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-template-rows: 500px 500px 500px;
+    grid-row-gap: 20px;
+    grid-column-gap:20px;
+    padding-left: 30px;
+}
+.container__cover__image {
+    /* border: 1px red solid; */
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+.design-image {
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px black;
+    border-radius: 10px;
+}
+.container__cover__image button {
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    font-size: 2.0rem;
+    cursor: pointer;
+}
+
+.container__cover__image button {
+    position: relative;
+    left: 30%;
+    margin-top: 2.0rem;
+}
+.container__cover__image .design-text {
+    position: relative;
+    left:8%;
+    top: 10px;
+}
+.separate-page {
+    position: absolute;
+    left: 47%;
+    bottom: 1.0rem;
+    /* border: solid 1px red; */
+}
+.separate-page-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}

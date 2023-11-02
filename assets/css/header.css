@@ -1,18 +1,21 @@
 /* header */
 .header {
     width: 100%;
+    /* 100px */
     height: 10rem;
     background-color: #000;
     position: fixed;
     top: 0;
     z-index: 100;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 .header__wrap {
+    /* 100px (so vs cha) */
     height: 100%;
 }
 /* navigation */
 .nav__container {
+    /* khoang cach giua cac phan tu con  */
     gap: 3rem;
 }
 .nav__item {
@@ -22,8 +25,10 @@
    text-decoration: none;
    color: #ccc;
    font-size: 2rem;
+   /* vi tri tuong doi */
    position: relative;
 }
+/* duong 1 gạch chan duoi HOME */
 .nav__item__link--active::before {
     content: "";
     position: absolute;
@@ -33,6 +38,7 @@
     bottom: -0.5rem;
 }
 .nav__item:hover{
+    /* x1,2 lần kích thước ban đầu */
     transform: scale(1.2);
 }
 .nav__item__link:hover {
@@ -41,7 +47,9 @@
 /* signIn */
 .signIn__wrap {
     display: flex;
+    /* truc y */
     align-items: center;
+    /*truc x */
     justify-content: space-between;
     color: #fff;
    gap: 1rem;
