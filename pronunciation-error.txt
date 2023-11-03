@@ -1,0 +1,1 @@
+phần checkbok trong Contact không chọn được 1 trong 2 mà nó pick cả hai :)?

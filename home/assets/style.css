@@ -5,6 +5,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 10rem;
+    /* border: solid yellowgreen 3px; */
 }
 .heading__title {
     width: 30%;
